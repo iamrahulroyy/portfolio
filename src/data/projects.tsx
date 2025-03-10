@@ -18,7 +18,7 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "ATS Resume Checker",
-    description: "A browser-based code editor with syntax highlighting, auto-completion, and live preview functionality.",
+    description: "A browser-based resume checker with feedback,score,improvemets.",
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     icon: createIcon(FileCodeIcon),
     tags: ["Python", "FastApi", "NextJs","React","Tailwind", "PostgreSQL"],
@@ -27,23 +27,25 @@ export const projects: Project[] = [
   },
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A modern e-commerce platform with product filtering, cart functionality, and sec.ure checkout process.",
+    title: "Event Organizer Platform",
+    description: "A modern event organizer platform with RSVP response.",
     image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     icon: createIcon(ShoppingCartIcon),
-    tags: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind", "Shadcn"],
-    github: "https://github.com/iamrahulroyy/ecommerce-platform",
-    demo: "https://ecommerce.netlify.com"
+    tags: ["React", "Python", "PostgreSQL", "NextJs", "Tailwind", "Shadcn"],
+    github: "https://github.com/iamrahulroyy/event-organizer-platform",
+    demo: "https://event-organizer-platform-five.vercel.app/"
+
   },
   {
     id: 2,
     title: "Admin Dashboard",
-    description: "A comprehensive admin dashboard with data visualization, user management, and real-time analytics.",
+    description: "A comprehensive admin dashboard with data visualization, user management,real-time analytics.",
     image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
     icon: createIcon(LayoutDashboardIcon),
     tags: ["React", "TypeScript", "NexJs", "PostgreSQL", "Tailwind", "Shadcn"],
     github: "https://github.com/iamrahulroyy/admin-dashboard",
-    demo: "https://admin-demo.netlify.com"
+    demo: "https://admin-dashboard-five.vercel.app/"
+
   },
   // {
   //   id: 4,
